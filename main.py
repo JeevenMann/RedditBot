@@ -2,6 +2,7 @@ import tweepy
 import reddit
 
 def main():
-
-    print(reddit.get_post(reddit.get_subreddit()))
+    subreddit_value = reddit.get_subreddit()
+    print(reddit.get_post(subreddit_value))
+    print(subreddit_value)
 main()
