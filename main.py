@@ -32,7 +32,7 @@ def tweet(api):
     if img_valid:
         api.update_with_media("img.jpg","Top post from r/"+subreddit_value.display_name+"\n"+url+"\n\n"+title)
     else:
-        api.update("Top post from r/"+subreddit_value +"\n"+url+"\n\n"+title)
+        api.update_status("Top post from r/"+subreddit_value +"\n"+url+"\n\n"+title)
 
 
 
