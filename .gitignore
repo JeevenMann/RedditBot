@@ -90,7 +90,6 @@ target/
 # IPython
 profile_default/
 ipython_config.py
-credentials.py
 
 # pyenv
 .python-version
